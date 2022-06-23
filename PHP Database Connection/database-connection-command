@@ -1,0 +1,12 @@
+mysql -u USERNAME -pPASSWORD -h HOSTNAMEORIP DATABASENAME 
+The options above means:
+
+-u: username
+-p: password (**no space between -p and the password text**)
+-h: host
+last one is name of the database that you wanted to connect. 
+
+
+Short, sweet, and complete: (and also secure)
+
+mysql -u <username> -h <hostname> -P <port> <database> -p
