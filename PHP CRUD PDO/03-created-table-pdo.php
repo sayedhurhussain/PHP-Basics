@@ -1,5 +1,5 @@
 <?php
-require_once "1-pdo.php";
+require_once "01-pdo.php";
 // sql to create table
 $sql = "CREATE TABLE users (
 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,

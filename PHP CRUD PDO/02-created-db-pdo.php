@@ -1,5 +1,5 @@
 <?php
-require_once "1-pdo.php";
+require_once "01-pdo.php";
 // Create database
 $sql = "CREATE DATABASE dbcon";
   // use exec() because no results are returned

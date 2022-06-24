@@ -1,5 +1,5 @@
 <?php
-require_once "1-pdo.php";
+require_once "01-pdo.php";
 // prepare sql and bind parameters
   $stmt = $conn->prepare("INSERT INTO users (firstname, lastname, email)
   VALUES (:firstname, :lastname, :email)");

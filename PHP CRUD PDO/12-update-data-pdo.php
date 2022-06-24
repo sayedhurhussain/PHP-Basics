@@ -1,5 +1,5 @@
 <?php
-require_once "1-pdo.php";
+require_once "01-pdo.php";
 
   $sql = "UPDATE users SET lastname='White' WHERE id=2";
 

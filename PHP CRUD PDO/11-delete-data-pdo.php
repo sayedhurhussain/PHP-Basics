@@ -1,5 +1,5 @@
 <?php
-require_once "1-pdo.php";
+require_once "01-pdo.php";
 // sql to delete a record
 $sql = "DELETE FROM users WHERE id=3";
 

@@ -1,10 +1,9 @@
 <?php
-require_once "1-pdo.php";
-// The <pre> tag defines preformatted text.
+require_once "01-pdo.php";
+// // The <pre> tag defines preformatted text.
 // echo "<pre>\n";
 // // $stmt is varible, $connn declear in pdo file
-// $stmt = $conn->query("SELECT id, firstname, lastname FROM users WHERE lastname='Doe'");
-
+// $stmt = $conn->query("SELECT * FROM users");
 // $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 // // print in array form 
 // print_r($rows);
@@ -12,7 +11,7 @@ require_once "1-pdo.php";
 
 
 
-$stmt = $conn->query("SELECT id, firstname, lastname, email FROM users WHERE id='5'");
+$stmt = $conn->query("SELECT id, firstname, lastname, email FROM users");
 $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 // Return data in table form
 echo '<table border="2">'."\n";
